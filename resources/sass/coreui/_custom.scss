@@ -1,0 +1,110 @@
+// Here you can add other styles
+//breadcumb
+.breadcrumb {
+    margin-bottom: 1rem;
+}
+
+//font size
+.size18 {
+    font-size: 18px;
+}
+
+//spacing
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.no-padding {
+    padding: 0!important;
+}
+
+.no-padding-left {
+    padding-left: 0!important;
+}
+
+.no-padding-right {
+    padding-right: 0!important;
+}
+
+.main .container-fluid {
+    padding: 0px 22px 46px 22px;
+}
+
+// card button
+.card-button {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+    border-top: 1px solid #c8ced2;
+    padding: 10px 0;
+}
+
+//button 
+.btn {
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+.card-button-body {
+    margin: 0 15px 0 215px;
+}
+
+// table
+.table thead th {
+    border-bottom: 1px solid #c8ced3;
+}
+
+// form validation
+.is-invalid .form-control {
+    border-color: #f86c6b;
+}
+
+.is-invalid .text-danger {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.radio-inline {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.radio-inline+.radio-inline {
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.radio-inline input[type=radio] {
+    margin-right: 10px;
+}
+
+.box-table {
+    overflow-x: auto;
+}
+
+@media (max-width: 767px) {
+    .card-button {
+        bottom: 20%;
+    }
+    .card-button-body {
+        margin: 0 12px 0 12px;
+    }
+}
